@@ -1,0 +1,32 @@
+{
+  "name": "use-local-storage",
+  "version": "1.0.0",
+  "description": "React hooks to manage state that works with `localStorage`",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier -w lib/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progfay/use-local-storage.git"
+  },
+  "keywords": [
+    "React",
+    "localStorage"
+  ],
+  "author": "progfay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/progfay/use-local-storage/issues"
+  },
+  "homepage": "https://github.com/progfay/use-local-storage#readme",
+  "dependencies": {
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.0",
+    "prettier": "3.0.0",
+    "typescript": "5.1.6"
+  }
+}
